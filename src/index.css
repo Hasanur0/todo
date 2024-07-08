@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .custom-shadow {
+        box-shadow: 3px 3px 1px 0px rgba(116, 76, 247, 0.75);
+        -webkit-box-shadow: 3px 3px 1px 0px rgba(116, 76, 247, 0.75);
+        -moz-box-shadow: 3px 3px 1px 0px rgba(116, 76, 247, 0.75);
+    }
+}
